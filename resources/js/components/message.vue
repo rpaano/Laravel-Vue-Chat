@@ -1,5 +1,7 @@
 <template>
-    <li class="list-group-item">Dapibus ac facilisis in</li>
+    <li class="list-group-item">
+        <slot></slot>
+    </li>
 </template>
 
 <script>

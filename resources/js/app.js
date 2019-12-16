@@ -15,7 +15,8 @@ const app = new Vue({
     methods: {
         send() {
             if (this.message.length != 0) {
-                console.log(this.message);
+                this.chat.message.push(this.message);
+                this.message = "";
             }
         }
     }
